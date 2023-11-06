@@ -1,9 +1,13 @@
-#ifndef  DOG_H 
-#define  DOG_H
+#ifndef DOG_H_
+#define DOG_H_
 
 /**
- * @stuct dog - new type containing char* name float age char* owner
- * Return : o
+ *struct dog - a new struct that creates a dog info
+ *
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
+ * description: a struct with muliple data types
  */
 
 struct dog
