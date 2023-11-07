@@ -1,0 +1,23 @@
+igned int n ,o ,i;
+      |  ^~~~~~~~
+4-new_dog.c:18:11: error: expected ‘)’ before ‘;’ token
+   18 |  if(n == 0; name[n] != '\0'; n++)
+      |    ~      ^
+      |           )
+4-new_dog.c:22:11: error: expected ‘)’ before ‘;’ token
+   22 |  if(o == 0; owner[o] != '\0'; 0++)
+      |    ~      ^
+      |           )
+4-new_dog.c:26:2: error: ISO C90 forbids mixed declarations and code [-Werror=declaration-after-statement]
+   26 |  dog_t *new = malloc(sizeof(dog_t));
+      |  ^~~~~
+4-new_dog.c:46:20: error: redeclaration of ‘i’ with no linkage
+   46 |  for (unsigned int i = 0; i < o; i++)
+      |                    ^
+4-new_dog.c:16:21: note: previous declaration of ‘i’ was here
+   16 |  unsigned int n ,o ,i;
+      |                     ^
+4-new_dog.c:46:2: error: ‘for’ loop initial declarations are only allowed in C99 or C11 mode
+   46 |  for (unsigned int i = 0; i < o; i++)
+      |  ^~~
+
